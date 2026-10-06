@@ -1,0 +1,11 @@
+dataset,setting,n_stays,best_ML,best_r2_log,best_r2_days,vs_median,vs_APACHE_II
+MIMIC-IV,Primary,139,RandomForest,0.071,0.028,not distinguishable,not distinguishable
+MIMIC-III CareVue,Primary,88,RandomForest,0.183,0.009,better,not distinguishable
+MIMIC-IV,Keep short stays,156,RandomForest,0.218,0.076,not comparable: stay may end before 24h,not comparable: stay may end before 24h
+MIMIC-III CareVue,Keep short stays,94,RandomForest,0.253,0.048,not comparable: stay may end before 24h,not comparable: stay may end before 24h
+MIMIC-IV,Shorter window,148,RandomForest,0.107,0.022,better,not distinguishable
+MIMIC-III CareVue,Shorter window,92,RandomForest,0.184,-0.023,better,not distinguishable
+MIMIC-IV,Longer window,117,RandomForest,0.122,0.047,better,not distinguishable
+MIMIC-III CareVue,Longer window,70,RandomForest,0.085,-0.085,not distinguishable,not distinguishable
+MIMIC-IV,Drop the 99-day stay,138,RandomForest,0.114,0.057,better,not distinguishable
+MIMIC-III CareVue,Drop the 99-day stay,88,RandomForest,0.228,0.043,better,not distinguishable

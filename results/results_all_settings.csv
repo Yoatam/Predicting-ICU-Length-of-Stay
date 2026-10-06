@@ -1,0 +1,61 @@
+key,model,r2_log,r2_days,mae_days,dataset,setting,n_stays
+"MIMIC-IV | Primary (24h window, min stay 24h)",Median baseline,-0.060948578300493494,-0.1586465664813434,6.821792385456879,MIMIC-IV,"Primary (24h window, min stay 24h)",139
+"MIMIC-IV | Primary (24h window, min stay 24h)",APACHE-II (linear),0.058291947695020406,-0.02822684455072646,6.724340481372614,MIMIC-IV,"Primary (24h window, min stay 24h)",139
+"MIMIC-IV | Primary (24h window, min stay 24h)",APACHE-II no GCS (linear),-0.013428836061341442,-0.07889001416039254,6.923173225552441,MIMIC-IV,"Primary (24h window, min stay 24h)",139
+"MIMIC-IV | Primary (24h window, min stay 24h)",Lasso,0.014100301073838006,-0.044145949012297736,6.808207066034248,MIMIC-IV,"Primary (24h window, min stay 24h)",139
+"MIMIC-IV | Primary (24h window, min stay 24h)",RandomForest,0.07323976802985198,0.02872041288919408,6.590882063718205,MIMIC-IV,"Primary (24h window, min stay 24h)",139
+"MIMIC-IV | Primary (24h window, min stay 24h)",XGBoost,0.0004891763076052547,0.02463942049427169,6.723148193374541,MIMIC-IV,"Primary (24h window, min stay 24h)",139
+"MIMIC-III CareVue | Primary (24h window, min stay 24h)",Median baseline,-0.08740491814907743,-0.24739600827127414,8.192840062011387,MIMIC-III CareVue,"Primary (24h window, min stay 24h)",90
+"MIMIC-III CareVue | Primary (24h window, min stay 24h)",APACHE-II (linear),0.10461100628673918,-0.11503248101943486,7.6403258831076375,MIMIC-III CareVue,"Primary (24h window, min stay 24h)",90
+"MIMIC-III CareVue | Primary (24h window, min stay 24h)",APACHE-II no GCS (linear),0.013671325305873738,-0.1586405048459833,7.923227983257644,MIMIC-III CareVue,"Primary (24h window, min stay 24h)",90
+"MIMIC-III CareVue | Primary (24h window, min stay 24h)",Lasso,0.09666660547023163,-0.1242222786286756,7.6754017737551505,MIMIC-III CareVue,"Primary (24h window, min stay 24h)",90
+"MIMIC-III CareVue | Primary (24h window, min stay 24h)",RandomForest,0.2070084873220547,0.01752462608495401,6.790786029490581,MIMIC-III CareVue,"Primary (24h window, min stay 24h)",90
+"MIMIC-III CareVue | Primary (24h window, min stay 24h)",XGBoost,0.09903682297256029,-0.03211795025778993,6.9305190355513036,MIMIC-III CareVue,"Primary (24h window, min stay 24h)",90
+"MIMIC-IV | Keep short stays (24h window, no minimum stay)",Median baseline,-0.04826320826946199,-0.1462733941587635,6.581239850923576,MIMIC-IV,"Keep short stays (24h window, no minimum stay)",156
+"MIMIC-IV | Keep short stays (24h window, no minimum stay)",APACHE-II (linear),0.09386368578675237,-0.020308503980831578,6.374217155189008,MIMIC-IV,"Keep short stays (24h window, no minimum stay)",156
+"MIMIC-IV | Keep short stays (24h window, no minimum stay)",APACHE-II no GCS (linear),0.007243768300164673,-0.07935009069780692,6.571122508929136,MIMIC-IV,"Keep short stays (24h window, no minimum stay)",156
+"MIMIC-IV | Keep short stays (24h window, no minimum stay)",Lasso,0.16041372357441563,0.030421852150790074,6.212548941483013,MIMIC-IV,"Keep short stays (24h window, no minimum stay)",156
+"MIMIC-IV | Keep short stays (24h window, no minimum stay)",RandomForest,0.22105964278123144,0.07544279547036463,5.993738259341832,MIMIC-IV,"Keep short stays (24h window, no minimum stay)",156
+"MIMIC-IV | Keep short stays (24h window, no minimum stay)",XGBoost,0.18218154666722952,0.0770795501161707,6.124636855466298,MIMIC-IV,"Keep short stays (24h window, no minimum stay)",156
+"MIMIC-III CareVue | Keep short stays (24h window, no minimum stay)",Median baseline,-0.07754489598205787,-0.2610713486874144,7.9218457117459975,MIMIC-III CareVue,"Keep short stays (24h window, no minimum stay)",96
+"MIMIC-III CareVue | Keep short stays (24h window, no minimum stay)",APACHE-II (linear),0.07678366494901397,-0.12183609507445,7.52034727445653,MIMIC-III CareVue,"Keep short stays (24h window, no minimum stay)",96
+"MIMIC-III CareVue | Keep short stays (24h window, no minimum stay)",APACHE-II no GCS (linear),-0.012784404960550999,-0.1669292638277952,7.788028469563966,MIMIC-III CareVue,"Keep short stays (24h window, no minimum stay)",96
+"MIMIC-III CareVue | Keep short stays (24h window, no minimum stay)",Lasso,0.10117636626949593,-0.1275426314775369,7.475148455988847,MIMIC-III CareVue,"Keep short stays (24h window, no minimum stay)",96
+"MIMIC-III CareVue | Keep short stays (24h window, no minimum stay)",RandomForest,0.24109421903621533,0.04276108036241292,6.606693138547459,MIMIC-III CareVue,"Keep short stays (24h window, no minimum stay)",96
+"MIMIC-III CareVue | Keep short stays (24h window, no minimum stay)",XGBoost,0.10632951877515799,0.04402528403476683,6.802312180398109,MIMIC-III CareVue,"Keep short stays (24h window, no minimum stay)",96
+"MIMIC-IV | Shorter window (12h window, min stay 12h)",Median baseline,-0.04214796673685073,-0.14916659080128544,6.660991556279105,MIMIC-IV,"Shorter window (12h window, min stay 12h)",148
+"MIMIC-IV | Shorter window (12h window, min stay 12h)",APACHE-II (linear),0.061350889481573044,-0.04755188374123535,6.52524153093249,MIMIC-IV,"Shorter window (12h window, min stay 12h)",148
+"MIMIC-IV | Shorter window (12h window, min stay 12h)",APACHE-II no GCS (linear),0.002851139352530304,-0.07990100189051412,6.6939505092920735,MIMIC-IV,"Shorter window (12h window, min stay 12h)",148
+"MIMIC-IV | Shorter window (12h window, min stay 12h)",Lasso,0.07824570518739071,-0.05144455243242089,6.521321352299815,MIMIC-IV,"Shorter window (12h window, min stay 12h)",148
+"MIMIC-IV | Shorter window (12h window, min stay 12h)",RandomForest,0.1120576185836694,0.02479977987511776,6.376486214380422,MIMIC-IV,"Shorter window (12h window, min stay 12h)",148
+"MIMIC-IV | Shorter window (12h window, min stay 12h)",XGBoost,-0.0031843371756830052,-0.011092375765267448,6.5643337115064915,MIMIC-IV,"Shorter window (12h window, min stay 12h)",148
+"MIMIC-III CareVue | Shorter window (12h window, min stay 12h)",Median baseline,-0.0736533787653147,-0.2552166559900642,7.962767416991537,MIMIC-III CareVue,"Shorter window (12h window, min stay 12h)",94
+"MIMIC-III CareVue | Shorter window (12h window, min stay 12h)",APACHE-II (linear),0.0587529799323813,-0.12034945175613025,7.589362143139163,MIMIC-III CareVue,"Shorter window (12h window, min stay 12h)",94
+"MIMIC-III CareVue | Shorter window (12h window, min stay 12h)",APACHE-II no GCS (linear),-0.02890668221381228,-0.1721227484484841,7.900389253406806,MIMIC-III CareVue,"Shorter window (12h window, min stay 12h)",94
+"MIMIC-III CareVue | Shorter window (12h window, min stay 12h)",Lasso,0.08752277568811599,-0.12506197129105012,7.371745539786555,MIMIC-III CareVue,"Shorter window (12h window, min stay 12h)",94
+"MIMIC-III CareVue | Shorter window (12h window, min stay 12h)",RandomForest,0.21300323971153334,0.019706947094165723,6.821396509299312,MIMIC-III CareVue,"Shorter window (12h window, min stay 12h)",94
+"MIMIC-III CareVue | Shorter window (12h window, min stay 12h)",XGBoost,0.12101478302882733,0.01184009163247072,6.854587191548931,MIMIC-III CareVue,"Shorter window (12h window, min stay 12h)",94
+"MIMIC-IV | Longer window (48h window, min stay 48h)",Median baseline,-0.12947252609079674,-0.16311960687173555,7.53536862697013,MIMIC-IV,"Longer window (48h window, min stay 48h)",117
+"MIMIC-IV | Longer window (48h window, min stay 48h)",APACHE-II (linear),0.05453041900198574,-0.031346427527904286,7.124374688349154,MIMIC-IV,"Longer window (48h window, min stay 48h)",117
+"MIMIC-IV | Longer window (48h window, min stay 48h)",APACHE-II no GCS (linear),-0.014171108985781519,-0.07087892271167469,7.391009454598301,MIMIC-IV,"Longer window (48h window, min stay 48h)",117
+"MIMIC-IV | Longer window (48h window, min stay 48h)",Lasso,0.03959032128994622,0.02763552843861572,7.011333440408181,MIMIC-IV,"Longer window (48h window, min stay 48h)",117
+"MIMIC-IV | Longer window (48h window, min stay 48h)",RandomForest,0.10826198522844761,0.035976030450171725,6.89868158888105,MIMIC-IV,"Longer window (48h window, min stay 48h)",117
+"MIMIC-IV | Longer window (48h window, min stay 48h)",XGBoost,0.015441081976935797,-0.04082479860876442,7.334443778315808,MIMIC-IV,"Longer window (48h window, min stay 48h)",117
+"MIMIC-III CareVue | Longer window (48h window, min stay 48h)",Median baseline,-0.022238425215470075,-0.04373304599342287,8.044922535327743,MIMIC-III CareVue,"Longer window (48h window, min stay 48h)",72
+"MIMIC-III CareVue | Longer window (48h window, min stay 48h)",APACHE-II (linear),0.017828091483560793,-0.11328740905367544,8.010699398683853,MIMIC-III CareVue,"Longer window (48h window, min stay 48h)",72
+"MIMIC-III CareVue | Longer window (48h window, min stay 48h)",APACHE-II no GCS (linear),-0.023633224225676857,-0.1387266180102614,8.228891265953981,MIMIC-III CareVue,"Longer window (48h window, min stay 48h)",72
+"MIMIC-III CareVue | Longer window (48h window, min stay 48h)",Lasso,-0.07850883340550456,-0.23675861977814758,8.442643234324052,MIMIC-III CareVue,"Longer window (48h window, min stay 48h)",72
+"MIMIC-III CareVue | Longer window (48h window, min stay 48h)",RandomForest,0.09862190278806755,-0.07636594695926797,7.441788536156274,MIMIC-III CareVue,"Longer window (48h window, min stay 48h)",72
+"MIMIC-III CareVue | Longer window (48h window, min stay 48h)",XGBoost,-0.09521962756662135,-0.19934614039919527,7.868846016193225,MIMIC-III CareVue,"Longer window (48h window, min stay 48h)",72
+"MIMIC-IV | Drop the 99-day stay (24h window, min stay 24h)",Median baseline,-0.059326705321658624,-0.21465754665160838,6.195600725212015,MIMIC-IV,"Drop the 99-day stay (24h window, min stay 24h)",138
+"MIMIC-IV | Drop the 99-day stay (24h window, min stay 24h)",APACHE-II (linear),0.06081587784133302,-0.045949359396152044,6.0829621675118375,MIMIC-IV,"Drop the 99-day stay (24h window, min stay 24h)",138
+"MIMIC-IV | Drop the 99-day stay (24h window, min stay 24h)",APACHE-II no GCS (linear),-0.010838174981051293,-0.1092839453072784,6.267921018697586,MIMIC-IV,"Drop the 99-day stay (24h window, min stay 24h)",138
+"MIMIC-IV | Drop the 99-day stay (24h window, min stay 24h)",Lasso,0.023759200653399315,-0.06454329344891947,6.173979497775037,MIMIC-IV,"Drop the 99-day stay (24h window, min stay 24h)",138
+"MIMIC-IV | Drop the 99-day stay (24h window, min stay 24h)",RandomForest,0.1127994312054827,0.05682200436111917,5.79762184844826,MIMIC-IV,"Drop the 99-day stay (24h window, min stay 24h)",138
+"MIMIC-IV | Drop the 99-day stay (24h window, min stay 24h)",XGBoost,0.05808568148860327,0.045957202176786116,5.814944874321502,MIMIC-IV,"Drop the 99-day stay (24h window, min stay 24h)",138
+"MIMIC-III CareVue | Drop the 99-day stay (24h window, min stay 24h)",Median baseline,-0.10956923324967782,-0.2628468565153081,8.260979455104335,MIMIC-III CareVue,"Drop the 99-day stay (24h window, min stay 24h)",90
+"MIMIC-III CareVue | Drop the 99-day stay (24h window, min stay 24h)",APACHE-II (linear),0.09538204675295266,-0.12400132664269425,7.695707463087298,MIMIC-III CareVue,"Drop the 99-day stay (24h window, min stay 24h)",90
+"MIMIC-III CareVue | Drop the 99-day stay (24h window, min stay 24h)",APACHE-II no GCS (linear),0.0003182123343181316,-0.17569366862839852,7.994232097556229,MIMIC-III CareVue,"Drop the 99-day stay (24h window, min stay 24h)",90
+"MIMIC-III CareVue | Drop the 99-day stay (24h window, min stay 24h)",Lasso,0.1046476216830341,-0.08486644246222837,7.6147580341296885,MIMIC-III CareVue,"Drop the 99-day stay (24h window, min stay 24h)",90
+"MIMIC-III CareVue | Drop the 99-day stay (24h window, min stay 24h)",RandomForest,0.22191994547586738,0.032381252108568716,6.74937684591265,MIMIC-III CareVue,"Drop the 99-day stay (24h window, min stay 24h)",90
+"MIMIC-III CareVue | Drop the 99-day stay (24h window, min stay 24h)",XGBoost,0.12753332271644277,0.0006129708146683418,6.721913527570847,MIMIC-III CareVue,"Drop the 99-day stay (24h window, min stay 24h)",90

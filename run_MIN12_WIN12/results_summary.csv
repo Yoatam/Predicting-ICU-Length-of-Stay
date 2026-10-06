@@ -1,0 +1,13 @@
+,,r2_log,r2_log_CI,r2_days,mae_days,mae_days_CI
+MIMIC-IV (primary),Median baseline,-0.047,"[-0.119, -0.015]",-0.15,6.67,"[5.24, 8.26]"
+MIMIC-IV (primary),APACHE-II (linear),0.056,"[-0.046, 0.142]",-0.048,6.545,"[5.18, 8.06]"
+MIMIC-IV (primary),APACHE-II no GCS (linear),-0.001,"[-0.068, 0.051]",-0.08,6.7,"[5.30, 8.22]"
+MIMIC-IV (primary),Lasso,0.047,"[-0.030, 0.116]",-0.063,6.592,"[5.25, 8.11]"
+MIMIC-IV (primary),RandomForest,0.093,"[-0.031, 0.224]",0.005,6.45,"[5.09, 7.84]"
+MIMIC-IV (primary),XGBoost,-0.013,"[-0.130, 0.216]",-0.042,6.715,"[5.20, 8.04]"
+MIMIC-III CareVue (secondary),Median baseline,-0.065,"[-0.148, -0.028]",-0.252,7.944,"[6.51, 9.47]"
+MIMIC-III CareVue (secondary),APACHE-II (linear),0.065,"[-0.083, 0.173]",-0.118,7.577,"[6.24, 8.97]"
+MIMIC-III CareVue (secondary),APACHE-II no GCS (linear),-0.017,"[-0.103, 0.046]",-0.167,7.887,"[6.53, 9.27]"
+MIMIC-III CareVue (secondary),Lasso,0.007,"[-0.172, 0.224]",-35.738,10.002,"[6.29, 10.49]"
+MIMIC-III CareVue (secondary),RandomForest,0.193,"[0.045, 0.351]",-0.0,6.903,"[5.53, 8.28]"
+MIMIC-III CareVue (secondary),XGBoost,0.085,"[-0.046, 0.346]",-0.054,7.133,"[5.61, 8.33]"
