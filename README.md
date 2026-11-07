@@ -38,7 +38,6 @@ The literature range cited in the case-study brief is context, not a direct benc
 ## Files
 
 - V4_ICU_LOS_cervical_SCI_analysis.ipynb — analysis code, saved results, and figures.
-- ICU_LOS_Case_Study_Report.docx — written report.
 - results_FINAL/ — tables and figures produced by the notebook.
 
 Raw MIMIC data are not included. Reproducing the analysis requires approved access to MIMIC-III and MIMIC-IV and the Python packages used in the notebook. Run the notebook from top to bottom; scanning the large clinical tables can take time.
